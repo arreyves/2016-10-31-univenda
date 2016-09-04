@@ -1,24 +1,23 @@
 ---
 layout: workshop
 root: .
-venue: Univen (brief name of host site)
-address: University Street (street address of home location)
-country: South-Africa (country (hyphenated if need be, like 'United-Kingdom')
-language: en (language code like 'en' or 'fr')
-latlng: 22.9761S 30.4465E (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: June 27-29, 2016 (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: 9:00 - 4:30 (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: 2016-06-27 (use YYYY-MM-DD format like 2015-01-01)
-enddate: 2016-06-29 (use YYYY-MM-DD format like 2015-01-02)
-instructor: Ivo Agbor, Naudene Maree (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
-helper: Zongo Kom, Andre Mokwaite (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
-contact: arreyves@gmail.com (contact email address for workshop organizer)
+venue: "University of Venda"  # (brief name of host site)
+address: "CAD Lab, School of Environmental Sciences, University Street" # (street address of home location)
+country: "za"   # (country (hyphenated if need be, like 'United-Kingdom')
+language: "en" # (language code like 'en' or 'fr')
+latlng: "22.9761, 30.4465" # (fractional latitude and longitude like 41.7901128,-87.6007318)
+humandate: "Oct 25-27, 2016" # (use the format 'Feb 17-18, 2020' (without the quotes)
+humantime: "8:00 am - 15:00 pm" # (use the format '9:00 am - 4:30 pm' (without the quotes)
+startdate: 2016-10-25 # (use YYYY-MM-DD format like 2015-01-01)
+enddate: 2016-10-27 # (use YYYY-MM-DD format like 2015-01-02)
+instructor: ["Ivo Agbor", "Naudene Maree", "Andy South"] # (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
+helper: ["Anelda van der Walt", "Andre Mokwaite", "Nicolas Masindi"] (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
+contact: arreyves@gmail.com/naudenemaree@gmail.com # (contact email address for workshop organizer)
 etherpad: Computational Research (insert the URL for your Etherpad if you're using one)
 eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
-day1_am: "Data organization in spreadsheets and OpenRefine"
-day1_pm: "Introduction to R"
-day2_am: "Data analysis and visualization in R"
-day2_pm: "SQL for data management"
+day1_am: "Introduction to geospatial data in R"
+day2_pm: "Working with Vector and Raster data in R"
+day3_am: "Data analysis and visualization in R"
 ---
 <!--
   HEADER
@@ -150,18 +149,45 @@ Participants should bring their laptops and plan to participate actively. By the
 <div class="row">
   <div class="col-md-6">
 
-    <h3>Day 1</h3>
+    <h3>Day 1: Automating repetitive tasks</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
-       <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
+       <tr> <td>08:00 - 08:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
+       <tr> <td>08:30 - 09:00</td>  <td>Welcome and Introductions</td> </tr>
+       <tr> <td>9:00 - 10:30</td> <td><a href="http://neondataskills.org/tutorial-series/raster-data-series/">Introduction to working with Rasta data in R</a></td></tr>
+       <tr> <td>10:30 - 11:00</td> <td>Coffee</td> </tr>
+       <tr> <td>11:00 - 13:00</td> <td><a href="http://neondataskills.org/tutorial-series/raster-data-series/"></a> (continue)</td> </tr>
+       <tr> <td>13:00 - 14:00</td> <td>Break</td> </tr>
+       <tr> <td>14:00 - 14:50</td> <td><a href="http://neondataskills.org/tutorial-series/raster-data-series/"></a> (continue)</td> </tr>
+       <tr> <td>14:50 - 15:00</td>  <td>Feedback and Wrap-up</td> </tr>
+       <tr> <td>15:00 - later</td>  <td>Networking opportunity at <a href="http://www.khoroni.co.za/">Khoroni Restaurant</a> </tr>
     </table>
  
  
-    <h3>Day 2</h3>
+    <h3>Day 2: Working with Vector data in R</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
-      <tr> <td>Afternoon</td>  <td>{{page.day2_pm}}</td> </tr>
+      <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
+      <tr> <td>08:30 - 10:30</td> <td><a href="http://neondataskills.org/tutorial-series/vector-data-series/"> Introcduction to working with Vector data in R</a></td></tr>
+      <tr> <td>10:30 - 11:00</td> <td>Coffee</td> </tr>
+      <tr> <td>11:00 - 13:00</td> <td><a href="http://neondataskills.org/tutorial-series/vector-data-series/"></a> (continue)</td> </tr>
+      <tr> <td>13:00 - 14:00</td> <td>Break</td> </tr>
+      <tr> <td>14:00 - 14:50</td> <td><a href="http://neondataskills.org/tutorial-series/vector-data-series/"></a> (continue)</td> </tr>
+      <tr> <td>14:50 - 15:00</td>  <td>Feedback and Wrap-up</td> </tr>
     </table>
+    
+    
+    
+    <h3>Day 3: Introduction to spatio-temporal data and introduction in R</h3>
+    <table class="table table-striped">
+      <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
+      <tr> <td>08:30 - 10:30</td>  <td><a href="https://github.com/datacarpentry/NEON-R-Spatio-Temporal-Data-and-Management-Intro/blob/gh-pages/06-CRS-formats-proj4-EPSG.Rmd">This lesson covers formats that CRS information may be in including proj4 and EPGS and how to work with them in R</a></td> </tr>
+      <tr> <td>10:30 - 11:00</td>  <td>Coffee</td> </tr>
+      <tr> <td>11:00 - 12:50</td>  <td><a href="https://github.com/datacarpentry/NEON-R-Spatio-Temporal-Data-and-Management-Intro/blob/gh-pages/08-clean-data-bad-and-missing-values.Rmd">clean data, bad and missing values in R</a></td> </tr>
+      <tr> <td>12:50 - 13:00</td>  <td>Feedback and Wrap-up</td> </tr>
+      <tr> <td>13:00 - 14:00</td>  <td>Break</td></tr>
+      <tr> <td>14:00 - 15:00</td>  <td>Optional: Discussion of individual projects</td></tr>
+    </table>
+    
+    
  </div>
 </div>
 
