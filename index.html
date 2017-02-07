@@ -6,18 +6,18 @@ address: "CAD Lab, School of Environmental Sciences, University of Venda, Univer
 country: "za"   # (country hyphenated if need be, like 'United-Kingdom')
 language: "en" # (language code like 'en' or 'fr')
 latlng: "22.9761, 30.4465" # (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: "1 Nov - 3 Nov, 2016" # (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: "8:00 am - 15:30 pm (early finish on Thursday 3 November)" # (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: 2016-11-01 # (use YYYY-MM-DD format like 2015-01-01)
-enddate: 2016-11-03 # (use YYYY-MM-DD format like 2015-01-02)
-instructor: ["Ivo Agbor", "Naudene Maree", "Andy South"] # (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
-helper: ["Anelda van der Walt", "Taiwoun Andre Patrick", "Nicolas Masindi"] # (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
+humandate: "13 Mar - 15 Mar, 2017" # (use the format 'Feb 17-18, 2020' (without the quotes)
+humantime: "8:00 am - 15:30 pm (early finish on Wednesday 15 March)" # (use the format '9:00 am - 4:30 pm' (without the quotes)
+startdate: 2017-03-13 # (use YYYY-MM-DD format like 2015-01-01)
+enddate: 2017-03-15 # (use YYYY-MM-DD format like 2015-01-02)
+instructor: ["Ivo Agbor", "Anelda van der Walt", "......."] # (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
+helper: ["Lisa Tambe", "Taiwoun Andre Patrick", "Nicolas Masindi"] # (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
 contact: arreyves@gmail.com # (contact email address for workshop organizer)
-etherpad: http://pad.software-carpentry.org/2016-10-31-univenda # (insert the URL for your Etherpad if you're using one)
+etherpad: http://pad.software-carpentry.org/2017-03-13-univenda # (insert the URL for your Etherpad if you're using one)
 eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
-day1: "Working better with tabular (Excel) data and data cleaning"
-day2: "Introduction to data analysis in R"
-day3: "Data analysis and visualisation in R"
+day1: "R for Reproducible Scientific Analysis"
+day2: "Using R as a substitute for GIS"
+day3: "Introduction to git/github"
 ---
 <!--
   HEADER
@@ -54,7 +54,7 @@ day3: "Data analysis and visualisation in R"
   the pitch.
 -->
 <p>
-<font color="red"><strong>PLEASE NOTE THAT THE WORKSHOP WILL COMMENCE ON TUESDAY 1 NOVEMBER AND WILL RUN UNTIIL THURSDAY 3 NOVEMBER AT 13:00</strong></font>
+<font color="red"><strong>PLEASE COME EARLY ON MONDAY 13 MARCH IF YOU HAVE ANY SETUP OR INSTALLATION ISSUES</strong></font>
 </p>
 <p>  
 <img src="img/DHET%20logo%20med%20res.jpg" alt="DHET Logo" >  
@@ -62,7 +62,7 @@ day3: "Data analysis and visualisation in R"
 </p>
 
 
-<p style="clear: both;"> This workshop is kindly sponsored by the DHET through the <a href="http://www.universitiessa.ac.za/sites/www.universitiessa.ac.za/files/Discussion%20document%20-%20The%20Rural%20Campuses%20Connection%20Project.pdf">Rural Campuses Connectivity Project II</a> and <a href="http://www.dirisa.ac.za/">DIRISA</a> and is made possible through collaboration with <a href="http://www.talarify.co.za">Talarify</a> and the <a href="http://www.nwu.ac.za"> North-West University</a>.
+<p style="clear: both;"> This workshop is kindly sponsored by the DHET through the <a href="http://www.universitiessa.ac.za/sites/www.universitiessa.ac.za/files/Discussion%20document%20-%20The%20Rural%20Campuses%20Connection%20Project.pdf">Rural Campuses Connectivity Project II</a> and <a href="http://www.dirisa.ac.za/">DIRISA</a> and is made possible through collaboration with <a href="http://www.talarify.co.za">Talarify</a> and the <a href="http://www.univen.ac.za"> University of Venda</a>.
 </p>
 <p>
 <a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
@@ -169,39 +169,39 @@ We will cover {{page.day1}}, {{page.day2}}, {{page.day3}}.
 <div class="row">
   <div class="col-md-6">
 
-    <h3>Tuesday Day 1: Working with Data</h3>
+    <h3>Monday Day 1:Introduction to R for non-programmers using gapminder data</h3>
     <table class="table table-striped">
        <tr> <td>08:00 - 08:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
        <tr> <td>08:30 - 09:00</td>  <td>Why are we talking about reproducible research?</td> </tr>
-       <tr> <td>9:00 - 10:30</td> <td><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/">Data organisation in Spreadsheets</a></td></tr>
+       <tr> <td>9:00 - 10:30</td> <td><a href="https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/">Introduction to R and RStudio</a></td></tr>
        <tr> <td>10:30 - 11:00</td> <td>Coffee</td> </tr>
-       <tr> <td>11:00 - 13:00</td> <td><a href="http://datacarpentry.github.io/OpenRefine-ecology-lesson/">Data Cleaning with OpenRefine</a> </td> </tr>
+       <tr> <td>11:00 - 13:00</td> <td><a href="https://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/">Data Structures</a> </td> </tr>
        <tr> <td>13:00 - 14:00</td> <td>Break</td> </tr>
-       <tr> <td>14:00 - 15:20</td> <td><a href="http://datacarpentry.github.io/R-ecology-lesson/">Introduction to R</a></td> </tr>
+       <tr> <td>14:00 - 15:20</td> <td><a href="https://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a></td> </tr>
        <tr> <td>15:20 - 15:30</td>  <td>Feedback and Wrap-up</td> </tr>
        <tr> <td>15:30 - later</td>  <td>Networking opportunity at <a href="http://www.khoroni.co.za/">Khoroni Restaurant</a> </tr>
     </table>
  
  
-    <h3>Wednesday Day 2: Introduction to R for Data Analysis</h3>
+    <h3>Wednesday Day 2: Introduction to Geospatial Data with R</h3>
     <table class="table table-striped">
       <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
-      <tr> <td>08:30 - 10:30</td> <td><a href="http://datacarpentry.github.io/R-ecology-lesson/">Introduction to R</a></td></tr>
+      <tr> <td>08:30 - 10:30</td> <td><a href="http://neondataskills.org/tutorial-series/raster-data-series/">Introduction to working with Rasta Data in R</a></td></tr>
       <tr> <td>10:30 - 11:00</td> <td>Coffee</td> </tr>
-      <tr> <td>11:00 - 13:00</td> <td><a href="http://datacarpentry.github.io/R-ecology-lesson/">R (continue)</a> </td> </tr>
+      <tr> <td>11:00 - 13:00</td> <td><a href="http://neondataskills.org/tutorial-series/raster-data-series/">R (continue)</a> </td> </tr>
       <tr> <td>13:00 - 14:00</td> <td>Break</td> </tr>
-      <tr> <td>14:00 - 15:20</td> <td><a href="http://datacarpentry.github.io/R-ecology-lesson/">R (continue)</a> </td> </tr>
+      <tr> <td>14:00 - 15:20</td> <td><a href="http://neondataskills.org/tutorial-series/raster-data-series/">R (continue)</a> </td> </tr>
       <tr> <td>15:20 - 15:30</td>  <td>Feedback and Wrap-up</td> </tr>
     </table>
     
     
     
-    <h3>Thursday Day 3: Data Visualisation and Maps in R</h3>
+    <h3>Thursday Day 3: Introduction to Git/Github</h3>
     <table class="table table-striped">
       <tr> <td>08:00 - 8:30</td>  <td>Rise 'n Shine Coffee Time</td> </tr>
-      <tr> <td>08:30 - 10:00</td>  <td><a href="http://datacarpentry.github.io/R-ecology-lesson/">R (continue)</a> </td> </tr>
+      <tr> <td>08:30 - 10:00</td>  <td><a href="https://swcarpentry.github.io/git-novice/01-basics/">Automated Version Control</a> </td> </tr>
       <tr> <td>10:00 - 10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>10:30 - 12:50</td>  <td>Drawing Maps in R </td> </tr>
+      <tr> <td>10:30 - 12:50</td>  <td>Bring Your Own Data </td> </tr>
       <tr> <td>12:50 - 13:00</td>  <td>Feedback and Wrap-up</td> </tr>
     </table>
     
